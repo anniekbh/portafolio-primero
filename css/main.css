@@ -1,8 +1,36 @@
 *{
 	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
-
 body{
+
+}
+.presentacion{
+	height: 100vh;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
 	background-image: url(../images/backwll.png);
 	background-size: cover;
 }
+.titulo{
+	background-color: rgba(0, 150, 136, 0.35);
+	border-radius: 12px;
+	padding: 3rem;
+	margin: 4% 1%;
+}
+.titulo h1{
+	font-size: 8rem;
+}
+.about{
+	position: absolute;
+	bottom: 45px;
+	right: 24px;
+}
+.slider-home-fullscreen {
+  height: 100vh !important;
+  width: 100%;
+  position: relative !important;
+}
+
