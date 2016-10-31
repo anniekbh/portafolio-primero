@@ -9,16 +9,18 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <div class="row presentacion">
-        <div class="col s12 m12 l12 center">
+    <div class="row presentacion" id="presentacion">
+      <div class="col s12 m12 l12 center">
+        <div id="particles-js">
           <div class="titulo">
             <h1>ANNIE</h1>
-            <h3>DESARROLLADORA FRONT-END</h3>
+            <h3>FRONT - END DEVELOPER</h3>
           </div>
-          <input type="submit" value="Sobre mi" class="about waves-effect waves-light btn light-green accent-4">
+          <input type="submit" value="Sobre mi" id="informacion" class="about waves-effect waves-light btn light-green accent-4">
         </div>
+      </div>      
     </div>
-    <div class="proyectos">
+    <div class="proyectos" id="proyectos">
       <div class="slider fullscreen slider-home-fullscreen">
         <ul class="slides">
           <li class="teal white-text">
@@ -66,10 +68,18 @@
         </ul>
       </div>
     </div>
+    <div class="habilidades" id="habilidades">
+        
+    </div>
+    <div class="contacto" id="contac">
+      
+    </div>
     
     <!-- Javascript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script  type="text/javascript" src="js/materialize.js"></script>    
-    <script  type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>  
+    <script type="text/javascript" src="js/proyectos.js"></script>
+    <script type="text/javascript" src="js/presentacion.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

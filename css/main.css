@@ -6,31 +6,68 @@
 body{
 
 }
+
+#particles-js{
+  height:100%;
+}
 .presentacion{
-	height: 100vh;
+	height: 100vh !important;
 	width: 100%;
 	margin: 0%;
 	padding: 0%;
 	background-image: url(../images/backwll.png);
 	background-size: cover;
 }
+
+.fondoSobre{
+	background-color:#000;
+	z-index: 2;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.tituloSobre{
+	display: block;
+	font-size: 2rem;
+}
+
+.info{
+	position: absolute;
+	z-index: 3;
+	top: 8rem;
+ 	left: 20rem;
+ 	width: 50rem;
+ 	height: 20rem;
+	background-color: #616161;
+	color: white;
+	border-radius: 12px;
+	padding: 4%;
+}
+
 .titulo{
 	background-color: rgba(0, 150, 136, 0.35);
 	border-radius: 12px;
-	padding: 3rem;
-	margin: 4% 1%;
+	padding: 1rem;
+	margin:0% 4% 1%;
+	color: #FFF3E0;
+	position: relative;
+	z-index: 1;
 }
+
 .titulo h1{
 	font-size: 8rem;
 }
+
 .about{
 	position: absolute;
-	bottom: 45px;
-	right: 24px;
+	bottom: 5%;
+	right: 4%;
+	z-index: 4;
 }
+
 .slider-home-fullscreen {
   height: 100vh !important;
   width: 100%;
   position: relative !important;
 }
-
